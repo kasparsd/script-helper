@@ -5,12 +5,12 @@ Plugin URI: https://github.com/kasparsd/script-helper
 GitHub URI: https://github.com/kasparsd/script-helper
 Description: Provides an easy way for adding styles and scripts to header (<code>wp_head</code>) and footer (<code>wp_footer</code>)
 Author: Kaspars Dambis
-Version: 1.1
+Version: 1.2
 Author URI: http://konstruktors.com
 */
 
 
-add_action( 'wp_footer', 'script_helper_footer', 20 );
+add_action( 'wp_footer', 'script_helper_footer', 987 );
 
 function script_helper_footer() {
 
@@ -24,7 +24,7 @@ function script_helper_footer() {
 }
 
 
-add_action( 'wp_header', 'script_helper_header', 20 );
+add_action( 'wp_header', 'script_helper_header', 987 );
 
 function script_helper_header() {
 
