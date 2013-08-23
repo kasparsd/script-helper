@@ -1,10 +1,11 @@
 <?php
 /*
 Plugin Name: Script Helper
-Plugin URI: 
-Description: Includes <code>script_helper_header</code> and <code>script_helper_footer</code> option values in wp_head and wp_footer respectively
+Plugin URI: https://github.com/kasparsd/script-helper
+GitHub URI: https://github.com/kasparsd/script-helper
+Description: Provides an easy way for adding styles and scripts to header (<code>wp_head</code>) and footer (<code>wp_footer</code>)
 Author: Kaspars Dambis
-Version: 0.1
+Version: 1.1
 Author URI: http://konstruktors.com
 */
 
